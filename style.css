@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: black; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    height: 10vh;
+    background-color: black;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.nav-item ul{
+    display: flex;
+}
+.nav-item ul a{
+    color: whitesmoke;
+    margin: 1.3rem 1.5rem;
+    text-decoration: none;
+}
+.nav-item ul a li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+.logo{
+    margin: 1rem 2rem;
+    color: #FADA7A;
+}
+.home{
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text p{
+    color: whitesmoke;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.text h1{
+    color: whitesmoke;
+    font-size: 5rem;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: whitesmoke;
+    margin-top: 1.3rem;
+}
+button{
+    padding: 15px 20px;
+    background-color: #FADA7A;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+}
+.rooms{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150vh;
+}
+.img1 img{
+    height: 250px;
+    width: 100%;
+}
+.img1{
+    width: 25.5%;
+    margin:  auto;
+    background-color: #F5F5F5;
+
+}
+.img1 p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.address{
+    height: 20vh;
+    background-color: black;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ad-1{
+    padding: 2rem;
+    align-items: center;
+}
+.ad-1 p{
+    font-size: 3rem;
+}
+.about{
+    display: flex;
+}
+.images img{
+    margin: 5rem;
+}
+.about-latter{
+    margin-top: 8rem;
+}
+.about-latter .p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+.about-latter p{
+    font-size: large;
+    margin-top: 1rem;
+}
+.about-latter h1{
+    font-size: 5rem;
+}
+.about-latter .b1{
+    background-color: #3A1078;
+    color: whitesmoke;
+}
+.Contact{
+    background-color: black;
+    height: 20vh;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    font-size: 2rem;
+    margin-right: 15rem;
+}
+.num p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.b2{
+    background-color: #3A1078;
+    color: whitesmoke;
+    margin-top: 0.8rem;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+@media (max-width:500px) and (min-width:300px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        }
+    .navbar{
+        display: block;
+        height: fit-content;
+    }
+    .nav-item ul{
+        display: block;
+    }
+    .nav-item ul a li{
+        margin: 20px 2rem;
+    }
+    .logo{
+        text-align: center;
+        margin-top: 0%;
+    }
+    .text h1{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .text p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .rooms{
+        display: block;
+        height: fit-content;
+    }
+    .img1{
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .img1 img{
+        width: 100%;
+    }
+    .address{
+        display: block;
+        height: fit-content;
+        text-align: center;
+    }
+    .about{
+        display: block;
+        height: fit-content;
+    }
+    .images{
+        width: fit-content;
+    }
+    .images img{
+        width: fit-content;
+        background: bottom;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    .about-latter{
+        text-align: center;
+        margin-top: 0%;
+    }
+    .Contact{
+        display: block;
+        height: fit-content;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .info{
+        padding-top: 1rem;
+        display: block;
+        width: 100%;
+        font-size: 25px;
+    }
+    .num{
+        margin-top: 1rem;
+    }
+    .b2{
+        margin-bottom: 1rem;
+    }
+}
